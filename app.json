@@ -1,27 +1,32 @@
 {
   "expo": {
-    "name": "projeto",
-    "slug": "projeto",
+    "name": "OnebitCoin",
+    "slug": "OneBitCoin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconBitcoin.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashBitcoin.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptive-iconBitcoin.png",
+        "backgroundColor": "#000000"
+      },
+      "packages": "com.Revolt.oneBitCoin",
+      "package": "com.revoltigabriel.OneBitCoin"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "owner": "revoltigabriel",
+    "extra": {
+      "eas": {
+        "projectId": "9a0d8c09-db97-45d1-a84c-e8964c9f3e23"
+      }
     }
   }
 }
